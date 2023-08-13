@@ -39,6 +39,8 @@
   "prettier.endOfLine": "lf",
   "prettier.semi": true,
   "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
 
   // npm settings for editor
   "npm.packageManager": "yarn",
