@@ -21,28 +21,19 @@ Start your React projects with this efficient template, combining the performanc
 ### Setup & Installation:
 
 1. Clone the repository:
-   \```bash
-   git clone https://github.com/your_username/vite-react-chakra-typescript.git
-   \```
+   `git clone https://github.com/your_username/vite-react-chakra-typescript.git`
 
 2. Change directory:
-   \```bash
-   cd vite-react-chakra-typescript
-   \```
+   `cd vite-react-chakra-typescript`
 
-3. Install dependencies using `pnpm`:
-   \```bash
-   pnpm install
-   \```
+3. Install dependencies using `pnpm`: `pnpm install`
 
 ### Running the Application:
 
 Start the development server:
-\```bash
-pnpm dev
-\```
+`pnpm dev`
 
-Your application will be available at `http://localhost:3000`.
+Your application will be available at `http://localhost:5173`.
 
 ## 🛠 Scripts:
 
