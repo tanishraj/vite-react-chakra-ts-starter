@@ -1,27 +1,78 @@
-# React + TypeScript + Vite
+# Vite-React-Chakra-TypeScript Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Start your React projects with this efficient template, combining the performance of Vite, the expressiveness of TypeScript, and the powerful UI components of Chakra.
 
-Currently, two official plugins are available:
+## 🌟 Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Enjoy faster and leaner development with Vite's no-bundler dev environment.
+- **React 18**: Harness the power of the latest React version.
+- **Chakra UI**: Build responsive and accessible user interfaces with ease.
+- **TypeScript**: Add strong types to your React components for better code quality and developer experience.
+- **Linting & Formatting**: Integrated ESLint, Prettier, and lint-staged ensure consistent code quality.
+- **Husky & CommitLint**: Enforce commit message standards and automate hooks.
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js v16 or higher.
+- PNPM v8 or higher. (Preferred package manager for this project)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Setup & Installation:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+   \```bash
+   git clone https://github.com/your_username/vite-react-chakra-typescript.git
+   \```
+
+2. Change directory:
+   \```bash
+   cd vite-react-chakra-typescript
+   \```
+
+3. Install dependencies using `pnpm`:
+   \```bash
+   pnpm install
+   \```
+
+### Running the Application:
+
+Start the development server:
+\```bash
+pnpm dev
+\```
+
+Your application will be available at `http://localhost:3000`.
+
+## 🛠 Scripts:
+
+- **Development**: `pnpm dev`
+- **Production Build**: `pnpm build`
+- **Preview Production Build**: `pnpm serve`
+- **Linting**: `pnpm lint`
+- **Auto-Fix Lint Issues**: `pnpm lint:fix`
+- **Type Checking**: `pnpm typecheck`
+- **Code Formatting**: `pnpm format`
+- **Update Dependencies (Interactive)**: `pnpm up-interactive`
+- **Release Versioning**: `pnpm release`
+- **Push Release**: `pnpm push-release`
+
+## 📦 Dependencies:
+
+This template uses the following main libraries:
+
+- **UI Components**: [@chakra-ui/react](https://chakra-ui.com/)
+- **State Management**: [React Context API](https://reactjs.org/docs/context.html) (feel free to integrate Redux, Zustand, MobX, or others as per your needs)
+- **Routing**: [react-router-dom](https://reactrouter.com/)
+
+## 🤝 Contributing:
+
+We welcome contributions! Please read the [contributing guidelines](CONTRIBUTING.md) to get started.
+
+## 📜 License:
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 📣 Feedback:
+
+If you found this template useful or have suggestions, please give a ⭐ or fork and send a pull request. Your feedback is highly appreciated!
