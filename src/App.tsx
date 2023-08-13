@@ -9,13 +9,16 @@ export function App() {
       alignItems='center'
       justifyContent='center'
       flexFlow='column'
-      height='100vh'>
+      height='100vh'
+    >
       <Flex
         alignItems='center'
-        justifyContent='center'>
+        justifyContent='center'
+      >
         <a
           href='https://vitejs.dev'
-          target='_blank'>
+          target='_blank'
+        >
           <img
             src={viteLogo}
             className='logo'
@@ -24,7 +27,8 @@ export function App() {
         </a>
         <a
           href='https://react.dev'
-          target='_blank'>
+          target='_blank'
+        >
           <img
             src={reactLogo}
             className='logo react'
@@ -35,7 +39,8 @@ export function App() {
       <Heading>Vite + React</Heading>
       <Text
         as='p'
-        className='read-the-docs'>
+        className='read-the-docs'
+      >
         Click on the Vite and React logos to learn more
       </Text>
     </Container>
