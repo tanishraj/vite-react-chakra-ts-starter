@@ -1,4 +1,5 @@
 const base = {
+  transparent: 'transparent',
   white: '#fff',
   black: '#000',
 };
