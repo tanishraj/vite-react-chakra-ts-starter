@@ -1,13 +1,8 @@
 import { Flex, Container, Heading, Text } from '@chakra-ui/react';
 import reactLogo from '../assets/react.svg';
 import viteLogo from '/vite.svg';
-import { useEffect } from 'react';
 
 export function HomePage() {
-  useEffect(() => {
-    throw new Error('Crashed');
-  }, []);
-
   return (
     <Container
       display='flex'
