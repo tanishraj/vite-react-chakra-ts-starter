@@ -1,16 +1,10 @@
-import { Flex, Container, Heading, Text } from '@chakra-ui/react';
-import reactLogo from '../assets/react.svg';
-import viteLogo from '/vite.svg';
+import { Flex, Text, Heading } from '@chakra-ui/react';
+import reactLogo from '/assets/react.svg';
+import viteLogo from '/assets/vite.svg';
 
-export function HomePage() {
+export const Landing = () => {
   return (
-    <Container
-      display='flex'
-      alignItems='center'
-      justifyContent='center'
-      flexFlow='column'
-      height='100vh'
-    >
+    <>
       <Flex
         alignItems='center'
         justifyContent='center'
@@ -43,6 +37,6 @@ export function HomePage() {
       >
         Click on the Vite and React logos to learn more
       </Text>
-    </Container>
+    </>
   );
-}
+};
