@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'archive';
+  src: url('/assets/fonts/Archive.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
