@@ -1,18 +1,19 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import react from '@vitejs/plugin-react';
-import { resolve } from 'path';
+import million from 'million/compiler';
 import { defineConfig } from 'vite';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import checker from 'vite-plugin-checker';
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      lib: resolve(__dirname, 'src/lib'),
-      router: resolve(__dirname, 'src/lib/router'),
-      theme: resolve(__dirname, 'src/lib/styles/theme'),
-      globals: resolve(__dirname, 'src/lib/styles/globals'),
-      layout: resolve(__dirname, 'src/lib/layout'),
-      pages: resolve(__dirname, 'src/lib/pages'),
-      assets: resolve(__dirname, 'public/assets'),
-    },
+  plugins: [
+    million.vite({ auto: true }),
+    react(),
+    checker({ typescript: true, eslint: { lintCommand: 'eslint src' } }),
+    tsconfigPaths(),
+  ],
+  server: {
+    open: true,
   },
 });

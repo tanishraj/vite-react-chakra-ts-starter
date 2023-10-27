@@ -1,6 +1,5 @@
 import { Grid } from '@chakra-ui/react';
-
-import { Landing } from './components/landing';
+import { Landing } from '@pages/home/components/landing';
 
 const Home = () => {
   return (

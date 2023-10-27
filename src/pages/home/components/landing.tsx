@@ -30,7 +30,7 @@ export const Landing = () => {
           />
         </a>
       </Flex>
-      <Heading>Vite + React </Heading>
+      <Heading>Vite + React</Heading>
       <Text
         as='p'
         className='read-the-docs'

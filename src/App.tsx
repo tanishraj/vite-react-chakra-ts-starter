@@ -1,10 +1,10 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { Layout } from './lib/layout';
-import { Routings } from './lib/router/routings';
-import { theme } from './lib/styles/theme';
-import '../src/lib/styles/globals/globals.css';
+import { Layout } from './layout';
+import { Routings } from './router/routings';
+import { theme } from './theme';
+import '../src/styles/globals/globals.css';
 
 export function App() {
   return (

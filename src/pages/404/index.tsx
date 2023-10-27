@@ -27,7 +27,7 @@ const Page404 = () => {
       >
         <Image
           width={400}
-          src='/assets/404 Error-rafiki.svg'
+          src='/public/assets/images/404 Error-rafiki.svg'
         />
         <Link
           fontSize='xs'
